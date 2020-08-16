@@ -1,0 +1,9 @@
+package com.unimagec.repository;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.unimagec.models.FileModel;
+
+@Repository
+public interface FileModelRepository extends JpaRepository<FileModel, Long> {
+}
